@@ -72,6 +72,10 @@
     <script src="{{ asset($activeTemplateTrue.'js/lightbox.min.js') }}"></script>
     <script src="{{ asset($activeTemplateTrue.'js/owl.min.js') }}"></script>
     <script src="{{ asset($activeTemplateTrue.'js/main.js') }}"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+    <script src="{{ asset($activeTemplateTrue.'js/gallery.js')  }}"></script>
+    
 
     @stack('script-lib')
 

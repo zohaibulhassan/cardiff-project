@@ -7,6 +7,6 @@
 @include($activeTemplate.'partials.services')
 @include($activeTemplate.'partials.count')
 @include($activeTemplate.'partials.reviews')
-
+@include($activeTemplate.'partials.gallery')
 
 @endsection
